@@ -74,7 +74,7 @@ public class Calculator {
             result.setText("");
         });
 
-        f.setSize(350, 300);
+        f.setSize(400, 300);
         f.setLayout(null);
         f.setVisible(true);
 

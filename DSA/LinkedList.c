@@ -1,4 +1,4 @@
-// Write a program to implement a link list.
+// Write a program to implement a link list in Dyanamic Memory.
 // WAP to Add a node add the begging in the Linked list.
 // WAP to count the number of node in given single Linked List.
 // WAP to insert a node at any location in a single Linked List.

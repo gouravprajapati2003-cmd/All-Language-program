@@ -1,3 +1,4 @@
+// This is Dynamic Stack Program.
 #include<stdio.h>
 #include<malloc.h>
 struct node {

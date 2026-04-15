@@ -18,11 +18,9 @@ public class AddDemo implements ActionListener {
         txt1.setBounds(220,100,80,30);
         l2.setBounds(100, 150, 80, 20);
         txt2.setBounds(220, 150, 80, 30);
-        l3.setBounds(100, 100, 80, 20);
+        l3.setBounds(150,250,150,60);
         txt3.setBounds(220, 150, 80, 30);
         btn.setBounds(100, 200, 100, 30);
-        
-        l3.setBounds(150,250,150,60);
         l4.setBounds(300,250,150,60);
          f.add(l1);
          f.add(txt1);

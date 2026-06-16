@@ -1,0 +1,76 @@
+{
+  "name": "Debug C Program",
+  "type": "cppdbg",
+  "request": "launch",
+  "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+  "args": [],
+  "stopAtEntry": false,
+  "cwd": "${fileDirname}",
+  "externalConsole": true,
+  "MIMode": "gdb",
+  "miDebuggerPath": "C:\\MinGW\\bin\\gdb.exe",
+  "preLaunchTask": "build C program",
+  "setupCommands": [
+    {
+      "description": "Enable pretty-printing for gdb",
+      "text": "-enable-pretty-printing",
+      "ignoreFailures": true
+    }
+  ],
+  "configurations": [
+    {
+      "type": "java",
+      "name": "TestDemo",
+      "request": "launch",
+      "mainClass": "TestDemo",
+      "projectName": "Program Practice_420055d1"
+    },
+    {
+      "type": "java",
+      "name": "Vowels",
+      "request": "launch",
+      "mainClass": "Vowels",
+      "projectName": "Program Practice_420055d1"
+    },
+    {
+      "type": "java",
+      "name": "RegistrationForm",
+      "request": "launch",
+      "mainClass": "RegistrationForm",
+      "projectName": "Program Practice_420055d1"
+    },
+    {
+      "type": "java",
+      "name": "JframeDemo",
+      "request": "launch",
+      "mainClass": "JframeDemo",
+      "projectName": "Program Practice_420055d1"
+    },
+    {
+      "type": "java",
+      "name": "JListProg",
+      "request": "launch",
+      "mainClass": "JListProg",
+      "projectName": "Program Practice_420055d1"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": ".",
+      "program": "build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
